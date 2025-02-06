@@ -12,4 +12,8 @@ export class ListarPensamentoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  adicionarPensamento() {
+    console.log('Adicionar Pensamento')
+  }
+
 }
