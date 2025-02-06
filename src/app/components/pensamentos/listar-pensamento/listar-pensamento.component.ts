@@ -12,8 +12,26 @@ export class ListarPensamentoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  listaPensamentos = [
+    {
+      conteudo: "angular",
+      autoria: "desconhecido",
+      modelo: "modelo1"
+    },
+    {
+      conteudo: "react",
+      autoria: "desconhecido",
+      modelo: "modelo2"
+    },
+    {
+      conteudo: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec ultricies ultricies, nunc nunc. ",
+      autoria: "desconhecido",
+      modelo: "modelo3"
+    }
+  ]
+
   adicionarPensamento() {
-    console.log('Adicionar Pensamento')
+    alert('Adicionar pensamento')
   }
 
 }
